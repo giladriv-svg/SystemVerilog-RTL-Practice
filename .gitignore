@@ -7,4 +7,4 @@ my_sim
 waves.vcd
 
 # Ignore VS Code settings (optional, recommended)
-.vscode/
+.vscode/*_sim
