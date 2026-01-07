@@ -17,8 +17,8 @@ module day1_tb;
         $dumpfile("waves.vcd");
         $dumpvars;
         // Test case 1
-        a_itest = 8'hFF; // 10101010
-        b_itest = 8'h00; // 01010101
+        a_itest = 8'hFF; 
+        b_itest = 8'h00;
         sel_itest = 0;
         #10;
         if (y_otest !== b_itest) begin
